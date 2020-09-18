@@ -82,7 +82,7 @@ def game_play():
         for i in range(0, no_of_players):
             next_square = turn(player_names[i], players[i])
             if next_square == 100:
-                print("Congratulations player" + player_names[i] + "!!. You are the winner!")
+                print("Congratulations player " + player_names[i] + "!!. You are the winner!")
                 return
             players[i] = next_square
             print()
